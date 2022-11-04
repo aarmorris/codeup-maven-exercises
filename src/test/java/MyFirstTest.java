@@ -49,5 +49,13 @@ public class MyFirstTest {
         assertArrayEquals(endArray, MathOperations.addOneToArray(startArray));
     }
 
+    @Test
+    public void testMath(){
+        int n = 12;
+        int expected = 15;
+
+        assertEquals(expected, MathOperations.practiceSum(n), 0);
+    }
+
 
 }
